@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Consulta Usuario</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+        <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+        <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+        <li><a href="consultaarticulos.html">Consulta Articulos</a></li>
+    </ul>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        table {
+            margin-left: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        button {
+            margin-left: 5px;
+        }
+    </style>
+    <section class="container-fluid ms-3 w-auto d-inline-block border py-3">
+        <h3 class="ms-2">Usuarios</h3>
+        <table>
+            <tr class="bg-primary text-light">
+                <th>Nombre</th>
+                <th>Género</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+            <tr>
+                <td>Miguel Leopoldo Arciniega Ramirez</td>
+                <td>Maculino</td>
+                <td>arciniegrm@live.com.mx</td>
+                <td><button type="submit">Borrar</button><button type="submit">Editar</button></td>
+            </tr>
+            <tr>
+                <td>Blanca Estefani Ramirez Barajas</td>
+                <td>Femenino</td>
+                <td>poniwonderland@gmail.com</td>
+                <td><button type="submit">Borrar</button><button type="submit">Editar</button></td>
+            </tr>
+            <tr>
+                <td>Francisco Javier Flores Herrera</td>
+                <td>Masculino</td>
+                <td>panchogenial@gmail.com</td>
+                <td><button type="submit">Borrar</button><button type="submit">Editar</button></td>
+            </tr>
+            <tr>
+                <td>Edwin Antonio Arellano Mata</td>
+                <td>Masculino</td>
+                <td>sargentoPingu@gmail.com</td>
+                <td><button type="submit">Borrar</button><button type="submit">Editar</button></td>
+            </tr>
+        </table>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
